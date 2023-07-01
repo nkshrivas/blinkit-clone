@@ -13,6 +13,7 @@ header{
 .first{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
     
 }
 .location{
@@ -46,6 +47,7 @@ header{
     color: white;
     border-radius: 10px;
     margin-left: 0 5px;
+    cursor: pointer;
 }
 .btn a{
     text-decoration: none;
@@ -53,6 +55,7 @@ header{
     text-decoration: none;
     margin-right: 37px;
     font-size: 24px;
+
 }
 .banner{
     margin:0.5% 10%;
@@ -63,6 +66,9 @@ header{
     margin: 0.3% 10%;
     
 }
+.cards::-webkit-scrollbar {
+    display: none;
+  }
 .cards img{
     padding: 1%;
 
