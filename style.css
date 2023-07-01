@@ -64,6 +64,10 @@ header{
     display: flex;
     overflow-x: auto;
     margin: 0.3% 10%;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+    /* this will hide the scrollbar in internet explorers */
+    -ms-overflow-style: none;
     
 }
 .cards::-webkit-scrollbar {
